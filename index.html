@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!--TITULO-->
+    <title>Multiverso das Viagens</title>
+</head>
+<!--CORPO-->
+<body class="fundo">
+  <header>
+    <!--BARRA DE NAVEGACAO-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">MV</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Destaques</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Preços</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Acesso
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Crie sua conta</a>
+              <a class="dropdown-item" href="#">Login</a>
+              <a class="dropdown-item" href="#">Presenteie</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!--SESSAO E INICIO DO CARROSSEL-->
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="https://images.unsplash.com/photo-1700242069369-33ef87058ade?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://images.unsplash.com/photo-1723031821049-f94749278db9?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="https://images.unsplash.com/photo-1723377434785-457f672e3131?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <!-- Pacote 1 -->
+        <div class="col-md-4">
+          <div class="card" style="cursor: pointer;" data-toggle="modal" data-target="#modal1">
+            <img src="https://images.unsplash.com/photo-1595000625799-375d17530f2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YW5hbG9nJTIwcGhvdG9ncmFwaHklMjBjaXR5fGVufDB8fDB8fHww" class="img-fluid" alt="Pacote 1">
+            
+            <div class="card-body">
+              <h5 class="card-title">Pacote 1</h5>
+              <p class="card-text">Dias: janeiro e dezembro de 2025</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pacote 2 -->
+        <div class="col-md-4">
+          <div class="card" style="cursor: pointer;" data-toggle="modal" data-target="#modal2">
+            <img src="https://plus.unsplash.com/premium_photo-1676930214770-3865ce66941f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTY0fHxwaG90byUyMGFuYWxvZyUyMGNpdHl8ZW58MHx8MHx8fDA%3D" class="img-fluid" alt="Pacote 2">
+            <div class="card-body">
+              <h5 class="card-title">Pacote 2</h5>
+              <p class="card-text">Dias: julho e outubro de 2025</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pacote 3 -->
+        <div class="col-md-4">
+          <div class="card" style="cursor: pointer;" data-toggle="modal" data-target="#modal3">
+            <img src="https://images.unsplash.com/photo-1709464972767-1d37458325f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg4fHxhbmFsb2clMjBwaG90b2dyYXBoeSUyMGNpdHl8ZW58MHx8MHx8fDA%3D" class="img-fluid" alt="Pacote 3">
+            <div class="card-body">
+              <h5 class="card-title">Pacote 3</h5>
+              <p class="card-text">Dias: fevereiro e abril 2026</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pacote 4 -->
+        <div class="col-md-4">
+          <div class="card" style="cursor: pointer;" data-toggle="modal" data-target="#modal4">
+            <img src="https://images.unsplash.com/photo-1556718205-a5b7d00c8544?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBob3RvJTIwYW5hbG9nJTIwcGxhY2VzfGVufDB8fDB8fHww" class="img-fluid" alt="Pacote 4">
+            <div class="card-body">
+              <h5 class="card-title">Pacote 4</h5>
+              <p class="card-text">Dias: agosto e dezembro de 2024</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pacote 5 -->
+        <div class="col-md-4">
+          <div class="card" style="cursor: pointer;" data-toggle="modal" data-target="#modal5">
+            <img src="https://images.unsplash.com/photo-1655149002351-132042bee905?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHBob3RvJTIwYW5hbG9nJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D" class="img-fluid" alt="Pacote 5">
+            <div class="card-body">
+              <h5 class="card-title">Pacote 5</h5>
+              <p class="card-text">Dias: agosto e dezembro de 2027</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pacote 6 -->
+        <div class="col-md-4">
+          <div class="card" style="cursor: pointer" data-toggle= "modal" data-target="#modal6">
+            <img src="https://plus.unsplash.com/premium_photo-1700566982166-b68382168778?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGhvdG8lMjBhbmFsb2clMjBiZWFjaHxlbnwwfHwwfHx8MA%3D%3D" class="img-fluid" alt="Pacote 6">
+            <div class="card-body">
+              <h5 class="card-title">Pacote 6</h5>
+              <p class="card-text">Dias: agosto e dezembro de 2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Modais -->
+    <!--<div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Título do modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Texto do corpo do modal, é aqui.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>-->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel1">Viagem 1</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+         <p>Dias: agosto e dezembro de 2024</p> 
+          <p>Valor: R$2000,00</p> 
+          <p>Embarque: Rio de Janeiro</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modalLabel2" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel2">Viagem 2</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Dias: agosto e setembro de 2025</p> 
+          <p>Valor: R$2500,00</p> 
+          <p>Embarque: Rio de Janeiro</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modalLabel3" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel3">Viagem 3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Dias: fevereiro e abril de 2026</p> 
+          <p>Valor: R$2863,00</p> 
+          <p>Embarque: Belo Horizonte</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modalLabel4" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel4">Viagem 4</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Dias: maio e outubro de 2025</p> 
+          <p>Valor: R$2364,00</p> 
+          <p>Embarque: Porto Alegre</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modalLabel5" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel5">Viagem 5</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Dias: dezembro de 2025</p> 
+          <p>Valor: R$2930,00</p> 
+          <p>Embarque: Itajai</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modalLabel6" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel6">Viagem 6</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Dias: agosto e dezembro de 2025</p> 
+          <p>Valor: R$2040,00</p> 
+          <p>Embarque: Sao Paulo</p>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="rodape">
+    MV - Todos os direitos reservados 
+  </footer>
+
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-JZy1Pu6yoJgOzW+Fhx5TAI9V61/V0I7TpS2NTa8nZqIDNkhxqOv8+Jok3cJ8pHjP" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
